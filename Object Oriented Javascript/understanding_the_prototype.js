@@ -29,10 +29,13 @@
  console.log(john.getFullName());
  console.log(john.firstname);
 
- var
+ var jane = {
+   firstname: 'Jane'
+ };
+
+ jane.__proto__ = john;
+ console.log(jane.getFullName());
 
 
 
 
-
- 
